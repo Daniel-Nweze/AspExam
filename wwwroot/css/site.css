@@ -1,0 +1,410 @@
+/* ================================
+   GLOBALA STYLING-REGLER
+================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+:root {
+    /* Exempel på några variabler – se till att du har alla nödvändiga från din design */
+    --border-radius: 12px;
+    --font-standard: "Nunito", sans-serif;
+    --font-logo: "Comfortaa", sans-serif;
+    --blue: #2D99FF;
+    --blue-dark: #2D7DCC;
+    --white: #FFFFFF;
+    --gray-light: #F5F7FA;
+    --gray: #E8EAED;
+    --red: #FF6640;
+    --text-heading: #202123;
+    --text-muted: #637085;
+    --box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+/* Basreset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-standard);
+    background-color: var(--gray-light);
+    color: var(--text-heading);
+}
+
+/* ================================
+   NAVIGATION OCH HEADER
+================================ */
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 1rem 2rem;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray);
+    display: flex;
+    gap: 1.5rem;
+}
+
+    .nav-menu li {
+        margin: 0;
+    }
+
+    .nav-menu a {
+        text-decoration: none;
+        color: var(--text-heading);
+        font-weight: 600;
+        transition: color 0.2s;
+    }
+
+        .nav-menu a:hover,
+        .nav-menu a.active {
+            color: var(--blue);
+        }
+
+/* ================================
+   PROJEKT LISTA (Index.cshtml)
+================================ */
+
+.project-container {
+    padding: 2rem;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+    .project-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+    }
+
+.project-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--gray);
+}
+
+.project-image {
+    width: 56px;
+    height: 56px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+    .project-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.project-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-heading);
+}
+
+.client-name {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.project-actions {
+    position: relative;
+}
+
+.project-description {
+    padding: 1rem;
+    flex: 1;
+    font-size: 0.95rem;
+    color: var(--text-heading);
+}
+
+.project-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    background-color: var(--gray-light);
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* ================================
+   PROJECT DETAILS (Details.cshtml)
+================================ */
+
+.project-details {
+    max-width: 800px;
+    margin: 3rem auto;
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+    .project-header h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0;
+    }
+
+.btn-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-edit {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+    .btn-edit:hover {
+        background-color: var(--blue-dark);
+    }
+
+.btn-danger {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+    .btn-danger:hover {
+        background-color: darkred;
+    }
+
+/* ================================
+   ADD/EDIT PROJECT FORM (Add.cshtml och Edit.cshtml)
+================================ */
+
+.add-project-form {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+    .add-project-form h1.h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: var(--text-heading);
+    }
+
+.form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+    .form-group label {
+        font-weight: 600;
+        color: var(--text-heading);
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 0.8rem 1rem;
+        border: 1px solid var(--gray);
+        border-radius: var(--border-radius);
+        font-size: 1rem;
+        transition: border-color 0.2s ease;
+    }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: var(--blue);
+            outline: none;
+        }
+
+/* ================================
+   ÖVRIGA HJÄLPKLASSER
+================================ */
+
+.text-danger {
+    color: var(--red);
+    font-size: 0.9rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.wrapper {
+    padding: 1rem;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 2rem;
+    border-right: 1px solid #eaeaea;
+}
+
+.logo {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #333;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .sidebar nav a:hover {
+        color: #2D99FF;
+    }
+
+.main-content {
+    flex: 1;
+    background-color: #f5f7fa;
+    padding: 2rem;
+}
+.projects-container {
+    padding: 1rem;
+}
+
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #2D99FF;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.filter-links {
+    margin-bottom: 1rem;
+}
+
+    .filter-links a {
+        margin-right: 1rem;
+        color: #2D99FF;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.project-details h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.card-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: #637085;
+    .dropdown
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 99;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.dropdown.show {
+    display: block;
+}

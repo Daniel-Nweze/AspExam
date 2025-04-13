@@ -1,0 +1,26 @@
+﻿@*DETAILS*@
+@model Data.Entities.ProjectEntity
+@{
+    ViewData["Title"] = "Project Details";
+}
+
+<div class="project-details">
+    <div class="project-header">
+        <h2>@Model.ProjectName</h2>
+        <div class="btn-group">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-edit">Edit</a>
+            <form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+                <button type="submit" class="btn btn-danger">Delete Project</button>
+            </form>
+        </div>
+    </div>
+
+    <p>Description: @Model.Description</p>
+    <p>Start Date @Model.StartDate.ToShortDateString() </p>
+    <p>End Date @Model.EndDate.ToShortDateString()</p>
+    <p>Budget @Model.Budget</p>
+    <p> Status @Model.Status?.StatusName</p>
+
+</div>
+
+

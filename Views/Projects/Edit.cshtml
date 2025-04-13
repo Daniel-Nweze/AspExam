@@ -1,0 +1,21 @@
+﻿@model Business.Dtos.AddProjectViewModel
+@{
+    ViewData["Title"] = "Edit Project";
+}
+
+<h1 class="h2">Edit Project</h1>
+
+<form asp-action="Edit" method="post" asp-route-id="@ViewBag.ProjectId" novalidate>
+    <partial name="_ProjectFormPartial" model="Model" />
+
+    <div class="form-group">
+        <label asp-for="FormData.StatusId">Status</label>
+        <select asp-for="FormData.StatusId" asp-items="Model.Statuses">
+            <option value="">--Choose Status--</option>
+        </select>
+        <span asp-validation-for="FormData.StatusId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn-group btn-primary">Save</button>
+</form>
+

@@ -1,0 +1,10 @@
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\wwwroot\js\site.js
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\wwwroot\js\projects.js
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\wwwroot\js\validation.js
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\wwwroot\favicon.ico
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\wwwroot\css\site.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\js\projects.js
+wwwroot\js\site.js
+wwwroot\js\validation.js

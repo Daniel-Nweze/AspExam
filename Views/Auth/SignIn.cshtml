@@ -1,0 +1,28 @@
+﻿@model UserSignInForm
+
+@{
+    ViewData["Title"] = "Sign In";
+}
+
+<div id="signin" class="container">
+    <form id="signin-form" asp-action="SignIn" asp-controller="Auth" method="post" novalidate>
+
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <div field-group>
+                <input asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <div field-group>
+                <input asp-for="Password" />
+                <span asp-validation-for="Password"></span>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-login">Log In</button>
+    </form>
+</div>
