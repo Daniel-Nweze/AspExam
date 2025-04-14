@@ -10,7 +10,7 @@
         <a asp-action="Add" class="btn btn-primary">+ Add Project</a>
     </div>
 
-    
+
     @*INDEX*@
     <div class="filter-links">
         <a asp-action="Index" asp-route-status="all">All</a>
@@ -23,29 +23,32 @@
         <div class="project-list">
             @foreach (var project in Model)
             {
-                <div class="project card">
-                    <div class="card-header">
-                        <div class="project-image">
-                            <img src="@project.Image" alt="icon" />
-                        </div>
+                <div class="project-card">
 
-                        <div class="project-name">
-                            <h4>@project.ProjectName</h4>
-                            <p class="client-name">@project.Description</p>
-                        </div>
-
-                        <div id="project-actions-container">
-                            <button class="btn-action" onclick="toggleDropdown('@project.Id')">⋯</button>
-
-                            <div id="dropdown-@project.Id" class="dropdown">
-                                <div class="dropdown-actions">
-                                    <a asp-action="Edit" asp-route-id="@project.Id" class="dropdown-action">✏️ Edit</a>
-                                    <form asp-action="Delete" asp-route-id="@project.Id" method="post">
-                                        <button type="submit" class="dropdown-action text-danger">🗑 Delete Project</button>
-                                    </form>
-                                </div>
+                    <a asp-action="Details" asp-route-id="@project.Id" class="project-card-link">
+                        <div class="card-header">
+                            <div class="project-image">
+                                <img src="@project.Image" alt="icon" />
                             </div>
 
+                            <div class="project-name">
+                                <h4>@project.ProjectName</h4>
+                                <p class="client-name">@project.Client?.ClientName</p>
+                                <p class="project-description">@project.Description</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div id="project-actions-container">
+                        <button class="btn-action" onclick="toggleDropdown('@project.Id')">⋯</button>
+
+                        <div id="dropdown-@project.Id" class="dropdown">
+                            <div class="dropdown-actions">
+                                <a asp-action="Edit" asp-route-id="@project.Id" class="dropdown-action">✏️ Edit</a>
+                                <form asp-action="Delete" asp-route-id="@project.Id" method="post">
+                                    <button type="submit" class="dropdown-action text-danger">🗑 Delete Project</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ASP_One_Examination")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ba811ce9e32877f8d38eed79d0f17ca05d5b5c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13889f1ec01ee6c576809d57ce421086491c418b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ASP_One_Examination")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ASP_One_Examination")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

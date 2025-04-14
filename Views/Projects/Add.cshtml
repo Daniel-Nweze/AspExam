@@ -50,6 +50,15 @@
             <span asp-validation-for="FormData.Budget" class="text-danger"></span>
         </div>
 
+        <div class="form-group">
+            <label asp-for="FormData.StatusId">Status</label>
+            <select asp-for="FormData.StatusId" asp-items="Model.Statuses">
+                <option value="">--Choose Status--</option>
+            </select>
+            <span asp-validation-for="FormData.StatusId" class="text-danger"></span>
+        </div>
+
+
         <button type="submit" class="btn btn-submit">Create</button>
 
     </form>

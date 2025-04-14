@@ -1,5 +1,8 @@
 ﻿@*DETAILS*@
-@model Data.Entities.ProjectEntity
+@model Business.Dtos.ProjectDetailsViewModel
+
+
+
 @{
     ViewData["Title"] = "Project Details";
 }
@@ -15,11 +18,17 @@
         </div>
     </div>
 
-    <p>Description: @Model.Description</p>
-    <p>Start Date @Model.StartDate.ToShortDateString() </p>
-    <p>End Date @Model.EndDate.ToShortDateString()</p>
-    <p>Budget @Model.Budget</p>
-    <p> Status @Model.Status?.StatusName</p>
+    <div class="project-details">
+        <h1>@Model.ProjectName</h1>
+        <p>Status: @Model.StatusName</p>
+        <p>Description: @Model.Description</p>
+        <p>Budget: @Model.Budget</p>
+        <p>Start Date: @Model.StartDate.ToShortDateString() </p>
+        <p>End Date @Model.EndDate.ToShortDateString()</p>
+        <p>Created At: @Model.CreatedAt.ToShortDateString()</p>
+
+    </div>
+   
 
 </div>
 

@@ -6,7 +6,7 @@ namespace ASP_One_Examination.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Projects");
         }
     }
 }

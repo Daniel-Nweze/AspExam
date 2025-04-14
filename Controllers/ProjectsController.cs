@@ -36,9 +36,19 @@ namespace ASP_One_Examination.Controllers
             var projects = result.Data?.ToList();
 
             if (status == "started")
-                projects = projects?.Where(p => p.StatusId == 1).ToList();
+            {
+                var startedStatus = await _statusService.GetStatusByNameAsync("Started");
+                if (startedStatus.Succeeded && startedStatus.Data != null)
+                    projects = projects?.Where(p => p.StatusId == startedStatus.Data.Id).ToList();
+            }
+
             else if (status == "completed")
-                projects = projects?.Where(p => p.StatusId == 2).ToList();
+            {
+                var completedStatus = await _statusService.GetStatusByNameAsync("Completed");
+                if (completedStatus.Succeeded && completedStatus.Data != null)
+                    projects = projects?.Where(p => p.StatusId == completedStatus.Data.Id).ToList();
+            }
+
 
             return View(projects);
         }
@@ -47,21 +57,18 @@ namespace ASP_One_Examination.Controllers
         public async Task<IActionResult> Add()
         {
             var clients = await _baseRepository.GetAllAsync();
+            var statuses = await _statusService.GetAllStatusesAsync();
             var viewModel = new AddProjectViewModel
             {
                 Clients = clients.Data?
                 .Select(c => new SelectListItem { Value = c.Id, Text = c.ClientName })
-                .ToList() ?? [] // Om data är null ändå, skicka tom lista istället för krasch.
-            };
-            foreach (var key in ModelState.Keys)
-            {
-                var errors = ModelState[key]!.Errors;
-                foreach (var error in errors)
-                {
-                    Console.WriteLine($"ModelState Error for {key}: {error.ErrorMessage}");
-                }
-            }
+                .ToList() ?? [], // Om data är null ändå, skicka tom lista istället för krasch.
 
+                Statuses = statuses.Data?
+                    .Select(s => new SelectListItem { Value = s.Id.ToString(), Text = s.StatusName })
+                    .ToList() ?? []
+
+            };
 
             return View(viewModel);
         }
@@ -79,15 +86,23 @@ namespace ASP_One_Examination.Controllers
                     }
                 }
                 var clients = await _baseRepository.GetAllAsync();
+                var statuses = await _statusService.GetAllStatusesAsync();
+
                 viewModel.Clients = clients.Data?
                     .Select(c => new SelectListItem { Value = c.Id, Text = c.ClientName })
                     .ToList() ?? [];
+
+
+                viewModel.Statuses = statuses.Data?
+                    .Select(s => new SelectListItem { Value = s.Id.ToString(), Text = s.StatusName })
+                    .ToList() ?? [];
+
 
                 return View(viewModel);
             }
 
 
-            viewModel.FormData.UserId = _userManager.GetUserId(User);
+            viewModel.FormData.UserId = _userManager.GetUserId(User)!;
             var result = await _projectService.CreateProjectAsync(viewModel.FormData);
             if (!result.Succeeded)
             {
@@ -153,7 +168,8 @@ namespace ASP_One_Examination.Controllers
         {
             if (!ModelState.IsValid)
             {
-                var statuses = await _statusService.GetAllStatusesAsync(); // du har väl detta?
+                var statuses = await _statusService.GetAllStatusesAsync();
+                ViewBag.Statuses = statuses.Data?.Select(s => new SelectListItem { Value = s.Id.ToString(), Text = s.StatusName }).ToList();
                 viewModel.Statuses = statuses.Data?
                     .Select(s => new SelectListItem { Value = s.Id.ToString(), Text = s.StatusName })
                     .ToList() ?? [];
@@ -211,11 +227,10 @@ namespace ASP_One_Examination.Controllers
         {
             var result = await _projectService.GetProjectAsync(id);
             if (!result.Succeeded || result.Data == null)
-            {
                 return RedirectToAction("Index");
-            }
 
-            return View(result.Data);
+            var viewModel = result.Data.ToDetailsViewModel();
+            return View(viewModel);
         }
     }
 }
