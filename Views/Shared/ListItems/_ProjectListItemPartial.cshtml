@@ -1,0 +1,34 @@
+﻿@* @model ProjectEntity
+
+<div class="project card" data-project-id="@Model.Id">
+    <div class="card-header">
+        <div class="project-image">
+            <img src="/images/projects/project-template-purple.svg" alt="template project" />
+        </div>
+        <h6 class="project-name">@Model.ProjectName</h6>
+        <span class="client-name">@Model.Client?.ClientName</span>
+        <div id="project-actions-container">
+            <button class="btn-action" type="button" data-type="dropdown"
+                    data-target="#project-dropdown-@Model.Id">
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+            <div id="project-dropdown-@Model.Id" class="dropdown hide">
+                <div class="dropdown-body">
+                    <button data-type="modal" data-target="#edit-project-modal" class="dropdown-action">
+                        <i class="fa-duotone fa-solid fa-pen-to-square"></i>
+                        <span>Edit</span>
+                    </button>
+                    <div class="divider"></div>
+                    <a class="dropdown-action remove" asp-action="Delete">
+                        <i class="fa-duotone fa-solid fa-trash"></i>
+                        <span>Delete Project</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <p>@Model.Description</p>
+    </div>
+</div>
+ *@

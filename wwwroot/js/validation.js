@@ -1,17 +1,47 @@
 ﻿
-function showValidationErrors(errors) {
-    for (const field in errors) {
-        const messages = errors[field];
-        const fieldElement = document.querySelector(`name="${field}"]`);
+const validateField = (field) => {
+    let errorSpan = document.querySelector(`span[data-valmsg-for='${field.name}']`)
 
-        if (fieldElement) {
-            let errorElement = fieldElement.parentElement.querySelector(".field-validation--error");
-            if (!errorElement) {
-                errorElement = document.createElement("div");
-                errorElement.className = "field-validation-error";
-                fieldElement.parentElement.appendChild(errorElement);
-            }
-            errorElement.innerHTML = messages.join("<br/>");
-        }
+    let errorMessage = ""
+    let value = field.value.trim()
+
+    if (field.hasAttribute("data-val-required") && value === "")
+        errorMessage = field.getAttribute("data-val-required")
+
+    if (field.hasAttribute("data-val-regex") && value !== "") {
+        let pattern = new RegExp(field.getAttribute("data-val-regex-pattern"))
+        if (!pattern.test(value))
+            errorMessage = field.getAttribute("data-val-regex")
     }
+
+    if (errorMessage) {
+        field.classList.add("input-validation-error")
+        errorSpan.classList.remove("field-validation-valid")
+        errorSpan.add("field-validation-error")
+        errorSpan.textContent = errorMessage
+    } else {
+        field.classList.remove("input-validation-error")
+        errorSpan.classList.remove("field-validation-error")
+        errorSpan.classList.add("field-validation-valid")
+        errorSpan.textContent = ""
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector("form")
+
+        if (!form)
+            return
+
+        const fields = form.querySelectorAll("input[data-val='true']")
+
+        fields.forEach(field => {
+            field.addEventListener("input", function () {
+                validateField(field)
+            })
+        })
+    })
+
+
+
 }
+

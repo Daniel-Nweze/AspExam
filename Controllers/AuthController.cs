@@ -21,9 +21,12 @@ public class AuthController(IAuthService authService) : Controller
     {
         if (!ModelState.IsValid)
             return View(form);
-
-
+        // Chatgpt genererad
+        var fullName = form.FullName.Split(' ');
+        var firstName = fullName.First();
+        var lastName = string.Join(" ", fullName.Skip(1));
         var dto = form.ToDto();
+
         var result = await _authService.SignUpAsync(dto);
         if (result.Succeeded)
             return RedirectToAction("SignIn", "Auth");

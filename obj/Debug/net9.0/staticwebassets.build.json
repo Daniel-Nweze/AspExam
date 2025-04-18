@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "70Hh45ejpunInx4fnWxyhMNl+bUPAZ8PaJPYKh2tKaE=",
+  "Hash": "mHbSHIC9jzcfjNvvIwfkj8qTDu13WWytPF1esfkFgoI=",
   "Source": "ASP_One_Examination",
   "BasePath": "_content/ASP_One_Examination",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-a1trx07juy.gz",
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-qlittkbiuk.gz",
       "SourceId": "ASP_One_Examination",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASP_One_Examination",
-      "RelativePath": "js/site#[.{fingerprint=a1trx07juy}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=qlittkbiuk}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,40 +31,103 @@
       "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "q35zjtf7sy",
-      "Integrity": "asQRkp4BzzSatJ2NZJgJT/CYrc758zetYwAGi4t3KyY=",
+      "Fingerprint": "8sy6r5v8wq",
+      "Integrity": "aOtUd1ZB7xHHpRmCUmBy/9Xoc/DiijUdkkRzTn5sosQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\j4cjimsxv0-jtt7wwcbcu.gz",
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0efjf2shif-r91wx8zza4.gz",
       "SourceId": "ASP_One_Examination",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASP_One_Examination",
-      "RelativePath": "js/projects#[.{fingerprint=jtt7wwcbcu}]?.js.gz",
+      "RelativePath": "css/vscode#[.{fingerprint=r91wx8zza4}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\projects.js",
+      "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\vscode.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7x239457yk",
-      "Integrity": "i3pkHEGT6ZEhFIgUPwD2N+OFGMhQfUd9cELvhkGE5Xo=",
+      "Fingerprint": "809t9unqrn",
+      "Integrity": "KFwRZYIpB5eMmnk4wYFnU4Nyc8iE7D71tsL5VJaNcN8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\projects.js"
+      "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\vscode.css"
     },
     {
-      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-3mqem5qj18.gz",
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\371jropgnd-xoalc7y1xp.gz",
       "SourceId": "ASP_One_Examination",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASP_One_Examination",
-      "RelativePath": "js/validation#[.{fingerprint=3mqem5qj18}]?.js.gz",
+      "RelativePath": "js/old#[.{fingerprint=xoalc7y1xp}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\old.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hit6izpx8d",
+      "Integrity": "6WihKMO/mpJNtx91gQvE31MCLey8MeuarJJbqWky2+I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\old.js"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\7daqtrdt1x-1175nh8rdp.gz",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "images/users/user-template-male-green#[.{fingerprint=1175nh8rdp}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\users\\user-template-male-green.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7stnrtgbmo",
+      "Integrity": "h0VNZxdp6qoVa5p/wmyI+e5wMh21IEdvIq21KiXyQ04=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\users\\user-template-male-green.svg"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\dxr1mqssgb-k39rm0ir57.gz",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "images/logotype/Logo#[.{fingerprint=k39rm0ir57}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\logotype\\Logo.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "a63f6skki1",
+      "Integrity": "0rOugKGfEZsh9puLNaqLdGvKMuF+4PRgWdbscR+br+c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\logotype\\Logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-imv38qk6ap.gz",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "js/validation#[.{fingerprint=imv38qk6ap}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +136,8 @@
       "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\validation.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bleyqiml23",
-      "Integrity": "of/IKrcKXQiXWpQgQdoCSyjO98burezRKSGwo+S+S9w=",
+      "Fingerprint": "623xbyqwjo",
+      "Integrity": "vuCNCzqqWGVYvXBa6my/19HOAM4utL2car1ZphtTFmY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\validation.js"
@@ -101,33 +164,75 @@
       "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\rd6ubeas0t-u1plo272eu.gz",
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\qpd9m4j8l0-mnql2dr8ug.gz",
       "SourceId": "ASP_One_Examination",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ASP_One_Examination",
-      "RelativePath": "css/site#[.{fingerprint=u1plo272eu}]?.css.gz",
+      "RelativePath": "images/icons/google-icon#[.{fingerprint=mnql2dr8ug}]?.svg.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\site.css",
+      "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\icons\\google-icon.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "d96b6v8jri",
-      "Integrity": "jymaP2nN+lKFPzcsaaCCii89czbpjR1rZwYNxxF1VZw=",
+      "Fingerprint": "w3fnl9e7oq",
+      "Integrity": "xLqOszX5o0WRyfCz373yw51dwCrvDg35gQBrQG1iXNg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\icons\\google-icon.svg"
     },
     {
-      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\tch51oxsr3-36ookcf2ns.gz",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "images/projects/project-template-purple#[.{fingerprint=36ookcf2ns}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\projects\\project-template-purple.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "p9y2xdhyyk",
+      "Integrity": "A0Ff3Ztu2IDAnksW6N4oOboQ1PtHDLhGAPqlHJzMNLg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\projects\\project-template-purple.svg"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\u6ifeyox56-sw4xpu4fpy.gz",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "css/figma-reset#[.{fingerprint=sw4xpu4fpy}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\figma-reset.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ed6vyh8bxb",
+      "Integrity": "/kcbc46x4qO6twQHoqyP3/qKhtEzWEkIM7XZI+24odg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\figma-reset.css"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\figma-reset.css",
       "SourceId": "ASP_One_Examination",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\",
       "BasePath": "_content/ASP_One_Examination",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "RelativePath": "css/figma-reset#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -136,11 +241,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u1plo272eu",
-      "Integrity": "7j14jmOQW6ndtK6sgykxW1paswmKpArB0u4tgW1LMcU=",
+      "Fingerprint": "sw4xpu4fpy",
+      "Integrity": "HIjqhNATQ2M14ng58mmAH8+hhUpDjSggre82AB84agE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\figma-reset.css"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\vscode.css",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "css/vscode#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r91wx8zza4",
+      "Integrity": "kWCazQinMvPZ26yOkn0xzWh8jC1gUAonO6qtaRioz0M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\vscode.css"
     },
     {
       "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\favicon.ico",
@@ -164,12 +290,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\projects.js",
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\icons\\google-icon.svg",
       "SourceId": "ASP_One_Examination",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\",
       "BasePath": "_content/ASP_One_Examination",
-      "RelativePath": "js/projects#[.{fingerprint}]?.js",
+      "RelativePath": "images/icons/google-icon#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,11 +304,116 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jtt7wwcbcu",
-      "Integrity": "SU18OnQl1ZOgNruZTNVTAk08YZarr1RYFEuZ9f9VzKA=",
+      "Fingerprint": "mnql2dr8ug",
+      "Integrity": "zj9cMVMuhH+iTsdX36AEJDHg68FSP6lWo8uymTOw1LE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\projects.js"
+      "OriginalItemSpec": "wwwroot\\images\\icons\\google-icon.svg"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\Image.png",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "images/Image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lm4sw3j9o0",
+      "Integrity": "bYKO/LHbrO8qhtYe/P+SuNu2bBfeOWZj6HTkV32Cg4w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Image.png"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\logotype\\Logo.svg",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "images/logotype/Logo#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k39rm0ir57",
+      "Integrity": "0BxY0MoOQJFol+G/yMK4IZzXE+xQjlt7gnPHQ8ixLqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logotype\\Logo.svg"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\projects\\project-template-purple.svg",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "images/projects/project-template-purple#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "36ookcf2ns",
+      "Integrity": "W0Q3RFGJE4FF2POZU6l+sfha78xN8dvzzZEir5FHPUc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\project-template-purple.svg"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\users\\user-template-male-green.svg",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "images/users/user-template-male-green#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1175nh8rdp",
+      "Integrity": "K7Jflb3cCsGoSS+g2SqB5WxYYi5e1PPq536+g/Q28h4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\users\\user-template-male-green.svg"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\old.js",
+      "SourceId": "ASP_One_Examination",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\",
+      "BasePath": "_content/ASP_One_Examination",
+      "RelativePath": "js/old#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xoalc7y1xp",
+      "Integrity": "YZEgQbrYUpE6maLfA22QnK40PyEpbFSBzwApzZtzya4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\old.js"
     },
     {
       "Identity": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\site.js",
@@ -199,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a1trx07juy",
-      "Integrity": "QkOwY2+VqyPXthDLz2kTUkfI2ZCkXKMQLtagjyUVy4c=",
+      "Fingerprint": "qlittkbiuk",
+      "Integrity": "kr9qiKqVyYvY4wSpHKT3JddRqig5ySbZBzg4cA6gYHU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -220,8 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3mqem5qj18",
-      "Integrity": "xRd1bwVWb8PpALFW8JszujOEBN7Mi0+SqNuoEbUfxm0=",
+      "Fingerprint": "imv38qk6ap",
+      "Integrity": "Js2K9JMfbYzjJF+HuiUHQTvyNoR+Y/V33CeL1EBuDdU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\validation.js"
@@ -229,13 +460,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\rd6ubeas0t-u1plo272eu.gz",
+      "Route": "css/figma-reset.css",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\u6ifeyox56-sw4xpu4fpy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000339097999"
+          "Quality": "0.000234246896"
         }
       ],
       "ResponseHeaders": [
@@ -245,15 +476,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2948"
+          "Value": "4268"
         },
         {
           "Name": "ETag",
-          "Value": "\"jymaP2nN+lKFPzcsaaCCii89czbpjR1rZwYNxxF1VZw=\""
+          "Value": "\"/kcbc46x4qO6twQHoqyP3/qKhtEzWEkIM7XZI+24odg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 10:22:22 GMT"
+          "Value": "Fri, 18 Apr 2025 01:49:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -273,19 +504,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7j14jmOQW6ndtK6sgykxW1paswmKpArB0u4tgW1LMcU=\""
+          "Value": "W/\"HIjqhNATQ2M14ng58mmAH8+hhUpDjSggre82AB84agE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7j14jmOQW6ndtK6sgykxW1paswmKpArB0u4tgW1LMcU="
+          "Value": "sha256-HIjqhNATQ2M14ng58mmAH8+hhUpDjSggre82AB84agE="
         }
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\site.css",
+      "Route": "css/figma-reset.css",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\figma-reset.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -294,7 +525,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14366"
+          "Value": "21034"
         },
         {
           "Name": "Content-Type",
@@ -302,11 +533,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7j14jmOQW6ndtK6sgykxW1paswmKpArB0u4tgW1LMcU=\""
+          "Value": "\"HIjqhNATQ2M14ng58mmAH8+hhUpDjSggre82AB84agE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 10:22:22 GMT"
+          "Value": "Fri, 18 Apr 2025 01:49:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -316,13 +547,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7j14jmOQW6ndtK6sgykxW1paswmKpArB0u4tgW1LMcU="
+          "Value": "sha256-HIjqhNATQ2M14ng58mmAH8+hhUpDjSggre82AB84agE="
         }
       ]
     },
     {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\rd6ubeas0t-u1plo272eu.gz",
+      "Route": "css/figma-reset.css.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\u6ifeyox56-sw4xpu4fpy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -331,7 +562,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2948"
+          "Value": "4268"
         },
         {
           "Name": "Content-Type",
@@ -339,11 +570,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jymaP2nN+lKFPzcsaaCCii89czbpjR1rZwYNxxF1VZw=\""
+          "Value": "\"/kcbc46x4qO6twQHoqyP3/qKhtEzWEkIM7XZI+24odg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 10:22:22 GMT"
+          "Value": "Fri, 18 Apr 2025 01:49:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -361,18 +592,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jymaP2nN+lKFPzcsaaCCii89czbpjR1rZwYNxxF1VZw="
+          "Value": "sha256-/kcbc46x4qO6twQHoqyP3/qKhtEzWEkIM7XZI+24odg="
         }
       ]
     },
     {
-      "Route": "css/site.u1plo272eu.css",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\rd6ubeas0t-u1plo272eu.gz",
+      "Route": "css/figma-reset.sw4xpu4fpy.css",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\u6ifeyox56-sw4xpu4fpy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000339097999"
+          "Quality": "0.000234246896"
         }
       ],
       "ResponseHeaders": [
@@ -382,15 +613,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2948"
+          "Value": "4268"
         },
         {
           "Name": "ETag",
-          "Value": "\"jymaP2nN+lKFPzcsaaCCii89czbpjR1rZwYNxxF1VZw=\""
+          "Value": "\"/kcbc46x4qO6twQHoqyP3/qKhtEzWEkIM7XZI+24odg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 10:22:22 GMT"
+          "Value": "Fri, 18 Apr 2025 01:49:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -410,27 +641,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7j14jmOQW6ndtK6sgykxW1paswmKpArB0u4tgW1LMcU=\""
+          "Value": "W/\"HIjqhNATQ2M14ng58mmAH8+hhUpDjSggre82AB84agE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u1plo272eu"
+          "Value": "sw4xpu4fpy"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/figma-reset.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7j14jmOQW6ndtK6sgykxW1paswmKpArB0u4tgW1LMcU="
+          "Value": "sha256-HIjqhNATQ2M14ng58mmAH8+hhUpDjSggre82AB84agE="
         }
       ]
     },
     {
-      "Route": "css/site.u1plo272eu.css",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\site.css",
+      "Route": "css/figma-reset.sw4xpu4fpy.css",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\figma-reset.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -439,7 +670,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14366"
+          "Value": "21034"
         },
         {
           "Name": "Content-Type",
@@ -447,11 +678,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7j14jmOQW6ndtK6sgykxW1paswmKpArB0u4tgW1LMcU=\""
+          "Value": "\"HIjqhNATQ2M14ng58mmAH8+hhUpDjSggre82AB84agE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 10:22:22 GMT"
+          "Value": "Fri, 18 Apr 2025 01:49:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -461,21 +692,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u1plo272eu"
+          "Value": "sw4xpu4fpy"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/figma-reset.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7j14jmOQW6ndtK6sgykxW1paswmKpArB0u4tgW1LMcU="
+          "Value": "sha256-HIjqhNATQ2M14ng58mmAH8+hhUpDjSggre82AB84agE="
         }
       ]
     },
     {
-      "Route": "css/site.u1plo272eu.css.gz",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\rd6ubeas0t-u1plo272eu.gz",
+      "Route": "css/figma-reset.sw4xpu4fpy.css.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\u6ifeyox56-sw4xpu4fpy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -484,7 +715,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2948"
+          "Value": "4268"
         },
         {
           "Name": "Content-Type",
@@ -492,11 +723,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jymaP2nN+lKFPzcsaaCCii89czbpjR1rZwYNxxF1VZw=\""
+          "Value": "\"/kcbc46x4qO6twQHoqyP3/qKhtEzWEkIM7XZI+24odg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 10:22:22 GMT"
+          "Value": "Fri, 18 Apr 2025 01:49:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -514,15 +745,313 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u1plo272eu"
+          "Value": "sw4xpu4fpy"
         },
         {
           "Name": "label",
-          "Value": "css/site.css.gz"
+          "Value": "css/figma-reset.css.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jymaP2nN+lKFPzcsaaCCii89czbpjR1rZwYNxxF1VZw="
+          "Value": "sha256-/kcbc46x4qO6twQHoqyP3/qKhtEzWEkIM7XZI+24odg="
+        }
+      ]
+    },
+    {
+      "Route": "css/vscode.css",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0efjf2shif-r91wx8zza4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000233154581"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4288"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KFwRZYIpB5eMmnk4wYFnU4Nyc8iE7D71tsL5VJaNcN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 18:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kWCazQinMvPZ26yOkn0xzWh8jC1gUAonO6qtaRioz0M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kWCazQinMvPZ26yOkn0xzWh8jC1gUAonO6qtaRioz0M="
+        }
+      ]
+    },
+    {
+      "Route": "css/vscode.css",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\vscode.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kWCazQinMvPZ26yOkn0xzWh8jC1gUAonO6qtaRioz0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 18:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kWCazQinMvPZ26yOkn0xzWh8jC1gUAonO6qtaRioz0M="
+        }
+      ]
+    },
+    {
+      "Route": "css/vscode.css.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0efjf2shif-r91wx8zza4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KFwRZYIpB5eMmnk4wYFnU4Nyc8iE7D71tsL5VJaNcN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 18:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KFwRZYIpB5eMmnk4wYFnU4Nyc8iE7D71tsL5VJaNcN8="
+        }
+      ]
+    },
+    {
+      "Route": "css/vscode.r91wx8zza4.css",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0efjf2shif-r91wx8zza4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000233154581"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4288"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KFwRZYIpB5eMmnk4wYFnU4Nyc8iE7D71tsL5VJaNcN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 18:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kWCazQinMvPZ26yOkn0xzWh8jC1gUAonO6qtaRioz0M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r91wx8zza4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/vscode.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kWCazQinMvPZ26yOkn0xzWh8jC1gUAonO6qtaRioz0M="
+        }
+      ]
+    },
+    {
+      "Route": "css/vscode.r91wx8zza4.css",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\vscode.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kWCazQinMvPZ26yOkn0xzWh8jC1gUAonO6qtaRioz0M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 18:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r91wx8zza4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/vscode.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kWCazQinMvPZ26yOkn0xzWh8jC1gUAonO6qtaRioz0M="
+        }
+      ]
+    },
+    {
+      "Route": "css/vscode.r91wx8zza4.css.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0efjf2shif-r91wx8zza4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KFwRZYIpB5eMmnk4wYFnU4Nyc8iE7D71tsL5VJaNcN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 18:42:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r91wx8zza4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/vscode.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KFwRZYIpB5eMmnk4wYFnU4Nyc8iE7D71tsL5VJaNcN8="
         }
       ]
     },
@@ -825,13 +1354,13 @@
       ]
     },
     {
-      "Route": "js/projects.js",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\j4cjimsxv0-jtt7wwcbcu.gz",
+      "Route": "images/icons/google-icon.mnql2dr8ug.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\qpd9m4j8l0-mnql2dr8ug.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004016064257"
+          "Quality": "0.001440922190"
         }
       ],
       "ResponseHeaders": [
@@ -841,15 +1370,1289 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "248"
+          "Value": "693"
         },
         {
           "Name": "ETag",
-          "Value": "\"i3pkHEGT6ZEhFIgUPwD2N+OFGMhQfUd9cELvhkGE5Xo=\""
+          "Value": "\"xLqOszX5o0WRyfCz373yw51dwCrvDg35gQBrQG1iXNg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:10 GMT"
+          "Value": "Thu, 17 Apr 2025 07:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zj9cMVMuhH+iTsdX36AEJDHg68FSP6lWo8uymTOw1LE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mnql2dr8ug"
+        },
+        {
+          "Name": "label",
+          "Value": "images/icons/google-icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zj9cMVMuhH+iTsdX36AEJDHg68FSP6lWo8uymTOw1LE="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/google-icon.mnql2dr8ug.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\icons\\google-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zj9cMVMuhH+iTsdX36AEJDHg68FSP6lWo8uymTOw1LE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 07:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mnql2dr8ug"
+        },
+        {
+          "Name": "label",
+          "Value": "images/icons/google-icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zj9cMVMuhH+iTsdX36AEJDHg68FSP6lWo8uymTOw1LE="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/google-icon.mnql2dr8ug.svg.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\qpd9m4j8l0-mnql2dr8ug.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLqOszX5o0WRyfCz373yw51dwCrvDg35gQBrQG1iXNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 07:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mnql2dr8ug"
+        },
+        {
+          "Name": "label",
+          "Value": "images/icons/google-icon.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLqOszX5o0WRyfCz373yw51dwCrvDg35gQBrQG1iXNg="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/google-icon.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\qpd9m4j8l0-mnql2dr8ug.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001440922190"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "693"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLqOszX5o0WRyfCz373yw51dwCrvDg35gQBrQG1iXNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 07:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zj9cMVMuhH+iTsdX36AEJDHg68FSP6lWo8uymTOw1LE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zj9cMVMuhH+iTsdX36AEJDHg68FSP6lWo8uymTOw1LE="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/google-icon.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\icons\\google-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zj9cMVMuhH+iTsdX36AEJDHg68FSP6lWo8uymTOw1LE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 07:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zj9cMVMuhH+iTsdX36AEJDHg68FSP6lWo8uymTOw1LE="
+        }
+      ]
+    },
+    {
+      "Route": "images/icons/google-icon.svg.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\qpd9m4j8l0-mnql2dr8ug.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLqOszX5o0WRyfCz373yw51dwCrvDg35gQBrQG1iXNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 07:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLqOszX5o0WRyfCz373yw51dwCrvDg35gQBrQG1iXNg="
+        }
+      ]
+    },
+    {
+      "Route": "images/Image.lm4sw3j9o0.png",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bYKO/LHbrO8qhtYe/P+SuNu2bBfeOWZj6HTkV32Cg4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 16:52:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lm4sw3j9o0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bYKO/LHbrO8qhtYe/P+SuNu2bBfeOWZj6HTkV32Cg4w="
+        }
+      ]
+    },
+    {
+      "Route": "images/Image.png",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\Image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bYKO/LHbrO8qhtYe/P+SuNu2bBfeOWZj6HTkV32Cg4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 16:52:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bYKO/LHbrO8qhtYe/P+SuNu2bBfeOWZj6HTkV32Cg4w="
+        }
+      ]
+    },
+    {
+      "Route": "images/logotype/Logo.k39rm0ir57.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\dxr1mqssgb-k39rm0ir57.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001023541453"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "976"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0rOugKGfEZsh9puLNaqLdGvKMuF+4PRgWdbscR+br+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0BxY0MoOQJFol+G/yMK4IZzXE+xQjlt7gnPHQ8ixLqM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k39rm0ir57"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logotype/Logo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0BxY0MoOQJFol+G/yMK4IZzXE+xQjlt7gnPHQ8ixLqM="
+        }
+      ]
+    },
+    {
+      "Route": "images/logotype/Logo.k39rm0ir57.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\logotype\\Logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0BxY0MoOQJFol+G/yMK4IZzXE+xQjlt7gnPHQ8ixLqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k39rm0ir57"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logotype/Logo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0BxY0MoOQJFol+G/yMK4IZzXE+xQjlt7gnPHQ8ixLqM="
+        }
+      ]
+    },
+    {
+      "Route": "images/logotype/Logo.k39rm0ir57.svg.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\dxr1mqssgb-k39rm0ir57.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0rOugKGfEZsh9puLNaqLdGvKMuF+4PRgWdbscR+br+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k39rm0ir57"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logotype/Logo.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0rOugKGfEZsh9puLNaqLdGvKMuF+4PRgWdbscR+br+c="
+        }
+      ]
+    },
+    {
+      "Route": "images/logotype/Logo.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\dxr1mqssgb-k39rm0ir57.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001023541453"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "976"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0rOugKGfEZsh9puLNaqLdGvKMuF+4PRgWdbscR+br+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0BxY0MoOQJFol+G/yMK4IZzXE+xQjlt7gnPHQ8ixLqM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0BxY0MoOQJFol+G/yMK4IZzXE+xQjlt7gnPHQ8ixLqM="
+        }
+      ]
+    },
+    {
+      "Route": "images/logotype/Logo.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\logotype\\Logo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0BxY0MoOQJFol+G/yMK4IZzXE+xQjlt7gnPHQ8ixLqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0BxY0MoOQJFol+G/yMK4IZzXE+xQjlt7gnPHQ8ixLqM="
+        }
+      ]
+    },
+    {
+      "Route": "images/logotype/Logo.svg.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\dxr1mqssgb-k39rm0ir57.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0rOugKGfEZsh9puLNaqLdGvKMuF+4PRgWdbscR+br+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 11:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0rOugKGfEZsh9puLNaqLdGvKMuF+4PRgWdbscR+br+c="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/project-template-purple.36ookcf2ns.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\tch51oxsr3-36ookcf2ns.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000984251969"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1015"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0Ff3Ztu2IDAnksW6N4oOboQ1PtHDLhGAPqlHJzMNLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 16:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"W0Q3RFGJE4FF2POZU6l+sfha78xN8dvzzZEir5FHPUc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "36ookcf2ns"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/project-template-purple.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W0Q3RFGJE4FF2POZU6l+sfha78xN8dvzzZEir5FHPUc="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/project-template-purple.36ookcf2ns.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\projects\\project-template-purple.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W0Q3RFGJE4FF2POZU6l+sfha78xN8dvzzZEir5FHPUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 16:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "36ookcf2ns"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/project-template-purple.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W0Q3RFGJE4FF2POZU6l+sfha78xN8dvzzZEir5FHPUc="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/project-template-purple.36ookcf2ns.svg.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\tch51oxsr3-36ookcf2ns.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0Ff3Ztu2IDAnksW6N4oOboQ1PtHDLhGAPqlHJzMNLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 16:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "36ookcf2ns"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/project-template-purple.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A0Ff3Ztu2IDAnksW6N4oOboQ1PtHDLhGAPqlHJzMNLg="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/project-template-purple.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\tch51oxsr3-36ookcf2ns.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000984251969"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1015"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0Ff3Ztu2IDAnksW6N4oOboQ1PtHDLhGAPqlHJzMNLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 16:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"W0Q3RFGJE4FF2POZU6l+sfha78xN8dvzzZEir5FHPUc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W0Q3RFGJE4FF2POZU6l+sfha78xN8dvzzZEir5FHPUc="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/project-template-purple.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\projects\\project-template-purple.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W0Q3RFGJE4FF2POZU6l+sfha78xN8dvzzZEir5FHPUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 16:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W0Q3RFGJE4FF2POZU6l+sfha78xN8dvzzZEir5FHPUc="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/project-template-purple.svg.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\tch51oxsr3-36ookcf2ns.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0Ff3Ztu2IDAnksW6N4oOboQ1PtHDLhGAPqlHJzMNLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 16:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A0Ff3Ztu2IDAnksW6N4oOboQ1PtHDLhGAPqlHJzMNLg="
+        }
+      ]
+    },
+    {
+      "Route": "images/users/user-template-male-green.1175nh8rdp.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\7daqtrdt1x-1175nh8rdp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000373831776"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2674"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0VNZxdp6qoVa5p/wmyI+e5wMh21IEdvIq21KiXyQ04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 12:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"K7Jflb3cCsGoSS+g2SqB5WxYYi5e1PPq536+g/Q28h4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1175nh8rdp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/users/user-template-male-green.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K7Jflb3cCsGoSS+g2SqB5WxYYi5e1PPq536+g/Q28h4="
+        }
+      ]
+    },
+    {
+      "Route": "images/users/user-template-male-green.1175nh8rdp.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\users\\user-template-male-green.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K7Jflb3cCsGoSS+g2SqB5WxYYi5e1PPq536+g/Q28h4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 12:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1175nh8rdp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/users/user-template-male-green.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K7Jflb3cCsGoSS+g2SqB5WxYYi5e1PPq536+g/Q28h4="
+        }
+      ]
+    },
+    {
+      "Route": "images/users/user-template-male-green.1175nh8rdp.svg.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\7daqtrdt1x-1175nh8rdp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0VNZxdp6qoVa5p/wmyI+e5wMh21IEdvIq21KiXyQ04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 12:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1175nh8rdp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/users/user-template-male-green.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h0VNZxdp6qoVa5p/wmyI+e5wMh21IEdvIq21KiXyQ04="
+        }
+      ]
+    },
+    {
+      "Route": "images/users/user-template-male-green.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\7daqtrdt1x-1175nh8rdp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000373831776"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2674"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0VNZxdp6qoVa5p/wmyI+e5wMh21IEdvIq21KiXyQ04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 12:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"K7Jflb3cCsGoSS+g2SqB5WxYYi5e1PPq536+g/Q28h4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K7Jflb3cCsGoSS+g2SqB5WxYYi5e1PPq536+g/Q28h4="
+        }
+      ]
+    },
+    {
+      "Route": "images/users/user-template-male-green.svg",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\users\\user-template-male-green.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K7Jflb3cCsGoSS+g2SqB5WxYYi5e1PPq536+g/Q28h4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 12:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K7Jflb3cCsGoSS+g2SqB5WxYYi5e1PPq536+g/Q28h4="
+        }
+      ]
+    },
+    {
+      "Route": "images/users/user-template-male-green.svg.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\7daqtrdt1x-1175nh8rdp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h0VNZxdp6qoVa5p/wmyI+e5wMh21IEdvIq21KiXyQ04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 12:32:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h0VNZxdp6qoVa5p/wmyI+e5wMh21IEdvIq21KiXyQ04="
+        }
+      ]
+    },
+    {
+      "Route": "js/old.js",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\371jropgnd-xoalc7y1xp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002079002079"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "480"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6WihKMO/mpJNtx91gQvE31MCLey8MeuarJJbqWky2+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 00:55:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -869,19 +2672,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SU18OnQl1ZOgNruZTNVTAk08YZarr1RYFEuZ9f9VzKA=\""
+          "Value": "W/\"YZEgQbrYUpE6maLfA22QnK40PyEpbFSBzwApzZtzya4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SU18OnQl1ZOgNruZTNVTAk08YZarr1RYFEuZ9f9VzKA="
+          "Value": "sha256-YZEgQbrYUpE6maLfA22QnK40PyEpbFSBzwApzZtzya4="
         }
       ]
     },
     {
-      "Route": "js/projects.js",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\projects.js",
+      "Route": "js/old.js",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\old.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -890,7 +2693,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "525"
+          "Value": "2062"
         },
         {
           "Name": "Content-Type",
@@ -898,11 +2701,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SU18OnQl1ZOgNruZTNVTAk08YZarr1RYFEuZ9f9VzKA=\""
+          "Value": "\"YZEgQbrYUpE6maLfA22QnK40PyEpbFSBzwApzZtzya4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:10 GMT"
+          "Value": "Fri, 18 Apr 2025 00:55:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -912,13 +2715,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SU18OnQl1ZOgNruZTNVTAk08YZarr1RYFEuZ9f9VzKA="
+          "Value": "sha256-YZEgQbrYUpE6maLfA22QnK40PyEpbFSBzwApzZtzya4="
         }
       ]
     },
     {
-      "Route": "js/projects.js.gz",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\j4cjimsxv0-jtt7wwcbcu.gz",
+      "Route": "js/old.js.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\371jropgnd-xoalc7y1xp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -927,7 +2730,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "248"
+          "Value": "480"
         },
         {
           "Name": "Content-Type",
@@ -935,11 +2738,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i3pkHEGT6ZEhFIgUPwD2N+OFGMhQfUd9cELvhkGE5Xo=\""
+          "Value": "\"6WihKMO/mpJNtx91gQvE31MCLey8MeuarJJbqWky2+I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:10 GMT"
+          "Value": "Fri, 18 Apr 2025 00:55:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -957,18 +2760,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-i3pkHEGT6ZEhFIgUPwD2N+OFGMhQfUd9cELvhkGE5Xo="
+          "Value": "sha256-6WihKMO/mpJNtx91gQvE31MCLey8MeuarJJbqWky2+I="
         }
       ]
     },
     {
-      "Route": "js/projects.jtt7wwcbcu.js",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\j4cjimsxv0-jtt7wwcbcu.gz",
+      "Route": "js/old.xoalc7y1xp.js",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\371jropgnd-xoalc7y1xp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004016064257"
+          "Quality": "0.002079002079"
         }
       ],
       "ResponseHeaders": [
@@ -978,15 +2781,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "248"
+          "Value": "480"
         },
         {
           "Name": "ETag",
-          "Value": "\"i3pkHEGT6ZEhFIgUPwD2N+OFGMhQfUd9cELvhkGE5Xo=\""
+          "Value": "\"6WihKMO/mpJNtx91gQvE31MCLey8MeuarJJbqWky2+I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:10 GMT"
+          "Value": "Fri, 18 Apr 2025 00:55:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1006,27 +2809,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"SU18OnQl1ZOgNruZTNVTAk08YZarr1RYFEuZ9f9VzKA=\""
+          "Value": "W/\"YZEgQbrYUpE6maLfA22QnK40PyEpbFSBzwApzZtzya4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jtt7wwcbcu"
+          "Value": "xoalc7y1xp"
         },
         {
           "Name": "label",
-          "Value": "js/projects.js"
+          "Value": "js/old.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SU18OnQl1ZOgNruZTNVTAk08YZarr1RYFEuZ9f9VzKA="
+          "Value": "sha256-YZEgQbrYUpE6maLfA22QnK40PyEpbFSBzwApzZtzya4="
         }
       ]
     },
     {
-      "Route": "js/projects.jtt7wwcbcu.js",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\projects.js",
+      "Route": "js/old.xoalc7y1xp.js",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\old.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1035,7 +2838,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "525"
+          "Value": "2062"
         },
         {
           "Name": "Content-Type",
@@ -1043,11 +2846,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SU18OnQl1ZOgNruZTNVTAk08YZarr1RYFEuZ9f9VzKA=\""
+          "Value": "\"YZEgQbrYUpE6maLfA22QnK40PyEpbFSBzwApzZtzya4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:10 GMT"
+          "Value": "Fri, 18 Apr 2025 00:55:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1057,21 +2860,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jtt7wwcbcu"
+          "Value": "xoalc7y1xp"
         },
         {
           "Name": "label",
-          "Value": "js/projects.js"
+          "Value": "js/old.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SU18OnQl1ZOgNruZTNVTAk08YZarr1RYFEuZ9f9VzKA="
+          "Value": "sha256-YZEgQbrYUpE6maLfA22QnK40PyEpbFSBzwApzZtzya4="
         }
       ]
     },
     {
-      "Route": "js/projects.jtt7wwcbcu.js.gz",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\j4cjimsxv0-jtt7wwcbcu.gz",
+      "Route": "js/old.xoalc7y1xp.js.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\371jropgnd-xoalc7y1xp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1080,7 +2883,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "248"
+          "Value": "480"
         },
         {
           "Name": "Content-Type",
@@ -1088,11 +2891,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i3pkHEGT6ZEhFIgUPwD2N+OFGMhQfUd9cELvhkGE5Xo=\""
+          "Value": "\"6WihKMO/mpJNtx91gQvE31MCLey8MeuarJJbqWky2+I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:10 GMT"
+          "Value": "Fri, 18 Apr 2025 00:55:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1110,26 +2913,26 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jtt7wwcbcu"
+          "Value": "xoalc7y1xp"
         },
         {
           "Name": "label",
-          "Value": "js/projects.js.gz"
+          "Value": "js/old.js.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-i3pkHEGT6ZEhFIgUPwD2N+OFGMhQfUd9cELvhkGE5Xo="
+          "Value": "sha256-6WihKMO/mpJNtx91gQvE31MCLey8MeuarJJbqWky2+I="
         }
       ]
     },
     {
-      "Route": "js/site.a1trx07juy.js",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-a1trx07juy.gz",
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-qlittkbiuk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.007692307692"
+          "Quality": "0.001012145749"
         }
       ],
       "ResponseHeaders": [
@@ -1139,19 +2942,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "129"
+          "Value": "987"
         },
         {
           "Name": "ETag",
-          "Value": "\"asQRkp4BzzSatJ2NZJgJT/CYrc758zetYwAGi4t3KyY=\""
+          "Value": "\"aOtUd1ZB7xHHpRmCUmBy/9Xoc/DiijUdkkRzTn5sosQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:11 GMT"
+          "Value": "Fri, 18 Apr 2025 01:37:33 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -1167,26 +2970,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QkOwY2+VqyPXthDLz2kTUkfI2ZCkXKMQLtagjyUVy4c=\""
+          "Value": "W/\"kr9qiKqVyYvY4wSpHKT3JddRqig5ySbZBzg4cA6gYHU=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "a1trx07juy"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-QkOwY2+VqyPXthDLz2kTUkfI2ZCkXKMQLtagjyUVy4c="
+          "Value": "sha256-kr9qiKqVyYvY4wSpHKT3JddRqig5ySbZBzg4cA6gYHU="
         }
       ]
     },
     {
-      "Route": "js/site.a1trx07juy.js",
+      "Route": "js/site.js",
       "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1196,7 +2991,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "140"
+          "Value": "3672"
         },
         {
           "Name": "Content-Type",
@@ -1204,11 +2999,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QkOwY2+VqyPXthDLz2kTUkfI2ZCkXKMQLtagjyUVy4c=\""
+          "Value": "\"kr9qiKqVyYvY4wSpHKT3JddRqig5ySbZBzg4cA6gYHU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:11 GMT"
+          "Value": "Fri, 18 Apr 2025 01:37:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kr9qiKqVyYvY4wSpHKT3JddRqig5ySbZBzg4cA6gYHU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-qlittkbiuk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aOtUd1ZB7xHHpRmCUmBy/9Xoc/DiijUdkkRzTn5sosQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 01:37:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aOtUd1ZB7xHHpRmCUmBy/9Xoc/DiijUdkkRzTn5sosQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.qlittkbiuk.js",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-qlittkbiuk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001012145749"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "987"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aOtUd1ZB7xHHpRmCUmBy/9Xoc/DiijUdkkRzTn5sosQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 01:37:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kr9qiKqVyYvY4wSpHKT3JddRqig5ySbZBzg4cA6gYHU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qlittkbiuk"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kr9qiKqVyYvY4wSpHKT3JddRqig5ySbZBzg4cA6gYHU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.qlittkbiuk.js",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kr9qiKqVyYvY4wSpHKT3JddRqig5ySbZBzg4cA6gYHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 01:37:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1218,7 +3158,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a1trx07juy"
+          "Value": "qlittkbiuk"
         },
         {
           "Name": "label",
@@ -1226,13 +3166,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QkOwY2+VqyPXthDLz2kTUkfI2ZCkXKMQLtagjyUVy4c="
+          "Value": "sha256-kr9qiKqVyYvY4wSpHKT3JddRqig5ySbZBzg4cA6gYHU="
         }
       ]
     },
     {
-      "Route": "js/site.a1trx07juy.js.gz",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-a1trx07juy.gz",
+      "Route": "js/site.qlittkbiuk.js.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-qlittkbiuk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1241,7 +3181,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "129"
+          "Value": "987"
         },
         {
           "Name": "Content-Type",
@@ -1249,11 +3189,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"asQRkp4BzzSatJ2NZJgJT/CYrc758zetYwAGi4t3KyY=\""
+          "Value": "\"aOtUd1ZB7xHHpRmCUmBy/9Xoc/DiijUdkkRzTn5sosQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:11 GMT"
+          "Value": "Fri, 18 Apr 2025 01:37:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1271,7 +3211,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a1trx07juy"
+          "Value": "qlittkbiuk"
         },
         {
           "Name": "label",
@@ -1279,18 +3219,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-asQRkp4BzzSatJ2NZJgJT/CYrc758zetYwAGi4t3KyY="
+          "Value": "sha256-aOtUd1ZB7xHHpRmCUmBy/9Xoc/DiijUdkkRzTn5sosQ="
         }
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-a1trx07juy.gz",
+      "Route": "js/validation.imv38qk6ap.js",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-imv38qk6ap.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.007692307692"
+          "Quality": "0.002004008016"
         }
       ],
       "ResponseHeaders": [
@@ -1300,152 +3240,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "129"
+          "Value": "498"
         },
         {
           "Name": "ETag",
-          "Value": "\"asQRkp4BzzSatJ2NZJgJT/CYrc758zetYwAGi4t3KyY=\""
+          "Value": "\"vuCNCzqqWGVYvXBa6my/19HOAM4utL2car1ZphtTFmY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"QkOwY2+VqyPXthDLz2kTUkfI2ZCkXKMQLtagjyUVy4c=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QkOwY2+VqyPXthDLz2kTUkfI2ZCkXKMQLtagjyUVy4c="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "140"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QkOwY2+VqyPXthDLz2kTUkfI2ZCkXKMQLtagjyUVy4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QkOwY2+VqyPXthDLz2kTUkfI2ZCkXKMQLtagjyUVy4c="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\0cua3ebed3-a1trx07juy.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "129"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"asQRkp4BzzSatJ2NZJgJT/CYrc758zetYwAGi4t3KyY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 18:54:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-asQRkp4BzzSatJ2NZJgJT/CYrc758zetYwAGi4t3KyY="
-        }
-      ]
-    },
-    {
-      "Route": "js/validation.3mqem5qj18.js",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-3mqem5qj18.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003322259136"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "300"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"of/IKrcKXQiXWpQgQdoCSyjO98burezRKSGwo+S+S9w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 18:48:10 GMT"
+          "Value": "Wed, 16 Apr 2025 22:25:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1465,13 +3268,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xRd1bwVWb8PpALFW8JszujOEBN7Mi0+SqNuoEbUfxm0=\""
+          "Value": "W/\"Js2K9JMfbYzjJF+HuiUHQTvyNoR+Y/V33CeL1EBuDdU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3mqem5qj18"
+          "Value": "imv38qk6ap"
         },
         {
           "Name": "label",
@@ -1479,12 +3282,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xRd1bwVWb8PpALFW8JszujOEBN7Mi0+SqNuoEbUfxm0="
+          "Value": "sha256-Js2K9JMfbYzjJF+HuiUHQTvyNoR+Y/V33CeL1EBuDdU="
         }
       ]
     },
     {
-      "Route": "js/validation.3mqem5qj18.js",
+      "Route": "js/validation.imv38qk6ap.js",
       "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\validation.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1494,7 +3297,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "661"
+          "Value": "1469"
         },
         {
           "Name": "Content-Type",
@@ -1502,11 +3305,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xRd1bwVWb8PpALFW8JszujOEBN7Mi0+SqNuoEbUfxm0=\""
+          "Value": "\"Js2K9JMfbYzjJF+HuiUHQTvyNoR+Y/V33CeL1EBuDdU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 18:48:10 GMT"
+          "Value": "Wed, 16 Apr 2025 22:25:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1516,7 +3319,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3mqem5qj18"
+          "Value": "imv38qk6ap"
         },
         {
           "Name": "label",
@@ -1524,13 +3327,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xRd1bwVWb8PpALFW8JszujOEBN7Mi0+SqNuoEbUfxm0="
+          "Value": "sha256-Js2K9JMfbYzjJF+HuiUHQTvyNoR+Y/V33CeL1EBuDdU="
         }
       ]
     },
     {
-      "Route": "js/validation.3mqem5qj18.js.gz",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-3mqem5qj18.gz",
+      "Route": "js/validation.imv38qk6ap.js.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-imv38qk6ap.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1539,7 +3342,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "300"
+          "Value": "498"
         },
         {
           "Name": "Content-Type",
@@ -1547,11 +3350,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"of/IKrcKXQiXWpQgQdoCSyjO98burezRKSGwo+S+S9w=\""
+          "Value": "\"vuCNCzqqWGVYvXBa6my/19HOAM4utL2car1ZphtTFmY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 18:48:10 GMT"
+          "Value": "Wed, 16 Apr 2025 22:25:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1569,7 +3372,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3mqem5qj18"
+          "Value": "imv38qk6ap"
         },
         {
           "Name": "label",
@@ -1577,18 +3380,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-of/IKrcKXQiXWpQgQdoCSyjO98burezRKSGwo+S+S9w="
+          "Value": "sha256-vuCNCzqqWGVYvXBa6my/19HOAM4utL2car1ZphtTFmY="
         }
       ]
     },
     {
       "Route": "js/validation.js",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-3mqem5qj18.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-imv38qk6ap.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003322259136"
+          "Quality": "0.002004008016"
         }
       ],
       "ResponseHeaders": [
@@ -1598,15 +3401,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "300"
+          "Value": "498"
         },
         {
           "Name": "ETag",
-          "Value": "\"of/IKrcKXQiXWpQgQdoCSyjO98burezRKSGwo+S+S9w=\""
+          "Value": "\"vuCNCzqqWGVYvXBa6my/19HOAM4utL2car1ZphtTFmY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 18:48:10 GMT"
+          "Value": "Wed, 16 Apr 2025 22:25:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1626,13 +3429,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xRd1bwVWb8PpALFW8JszujOEBN7Mi0+SqNuoEbUfxm0=\""
+          "Value": "W/\"Js2K9JMfbYzjJF+HuiUHQTvyNoR+Y/V33CeL1EBuDdU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xRd1bwVWb8PpALFW8JszujOEBN7Mi0+SqNuoEbUfxm0="
+          "Value": "sha256-Js2K9JMfbYzjJF+HuiUHQTvyNoR+Y/V33CeL1EBuDdU="
         }
       ]
     },
@@ -1647,7 +3450,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "661"
+          "Value": "1469"
         },
         {
           "Name": "Content-Type",
@@ -1655,11 +3458,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xRd1bwVWb8PpALFW8JszujOEBN7Mi0+SqNuoEbUfxm0=\""
+          "Value": "\"Js2K9JMfbYzjJF+HuiUHQTvyNoR+Y/V33CeL1EBuDdU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 18:48:10 GMT"
+          "Value": "Wed, 16 Apr 2025 22:25:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1669,13 +3472,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xRd1bwVWb8PpALFW8JszujOEBN7Mi0+SqNuoEbUfxm0="
+          "Value": "sha256-Js2K9JMfbYzjJF+HuiUHQTvyNoR+Y/V33CeL1EBuDdU="
         }
       ]
     },
     {
       "Route": "js/validation.js.gz",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-3mqem5qj18.gz",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\obj\\Debug\\net9.0\\compressed\\ntqmduzzx6-imv38qk6ap.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1684,7 +3487,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "300"
+          "Value": "498"
         },
         {
           "Name": "Content-Type",
@@ -1692,11 +3495,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"of/IKrcKXQiXWpQgQdoCSyjO98burezRKSGwo+S+S9w=\""
+          "Value": "\"vuCNCzqqWGVYvXBa6my/19HOAM4utL2car1ZphtTFmY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 18:48:10 GMT"
+          "Value": "Wed, 16 Apr 2025 22:25:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1714,7 +3517,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-of/IKrcKXQiXWpQgQdoCSyjO98burezRKSGwo+S+S9w="
+          "Value": "sha256-vuCNCzqqWGVYvXBa6my/19HOAM4utL2car1ZphtTFmY="
         }
       ]
     }

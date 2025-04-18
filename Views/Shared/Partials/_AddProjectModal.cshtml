@@ -1,0 +1,68 @@
+﻿@* @model AddProjectViewModel
+@{
+    ViewData["Title"] = "Add Project";
+}
+
+<div id="projectModal" class="modal">
+    <div class="modal-container">
+        <button type="button" class="modal-close-btn" data-close-modal>×</button>
+
+
+        <h2 class="modal-title">Add Project</h2>
+
+        <div class="modal-icon">
+            <img src="/images/Image.png" alt="Alpha Icon">
+        </div>
+
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="FormData.ProjectName">Project Name</label>
+                <input asp-for="FormData.ProjectName" />
+                <span asp-validation-for="FormData.ProjectName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FormData.ClientId">Client Name</label>
+                <select asp-for="FormData.ClientId" asp-items="Model.Clients">
+                    <option value="">--Choose Client--</option>
+                </select>
+                <span asp-validation-for="FormData.ClientId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FormData.Description">Description</label>
+                <textarea asp-for="FormData.Description"></textarea>
+                <span asp-validation-for="FormData.Description" class="text-danger"></span>
+            </div>
+
+            <div class="date-group">
+                <div class="form-group">
+                    <label asp-for="FormData.StartDate">Start Date</label>
+                    <input asp-for="FormData.StartDate" type="date" />
+                    <span asp-validation-for="FormData.StartDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FormData.EndDate">End Date</label>
+                    <input asp-for="FormData.EndDate" type="date" />
+                    <span asp-validation-for="FormData.EndDate" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FormData.Budget">💲Budget</label>
+                <input asp-for="FormData.Budget" />
+                <span asp-validation-for="FormData.Budget" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FormData.StatusId">Status</label>
+                <select asp-for="FormData.StatusId" asp-items="Model.Statuses">
+                    <option value="">--Choose Status--</option>
+                </select>
+                <span asp-validation-for="FormData.StatusId" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-submit">Create</button>
+        </form>
+    </div>
+</div> *@

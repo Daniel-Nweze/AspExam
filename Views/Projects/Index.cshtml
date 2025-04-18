@@ -1,48 +1,24 @@
-﻿@model IEnumerable<Data.Entities.ProjectEntity>
-
-@{
-    ViewData["Title"] = "Projects";
-}
-
-<div class="projects-container">
+﻿<div class="projects-container">
     <div class="projects-header">
         <h1>Projects</h1>
         <a asp-action="Add" class="btn btn-primary">+ Add Project</a>
     </div>
 
-
-    @*INDEX*@
-    <div class="filter-links">
+    <div class="nav-links">
         <a asp-action="Index" asp-route-status="all">All</a>
         <a asp-action="Index" asp-route-status="started">Started</a>
         <a asp-action="Index" asp-route-status="completed">Completed</a>
     </div>
 
-    @*Här har jag klistrat in från ChatGpt, men bara för att få in ett par rader i kod som jag redan hade skrivit, för att få in allt på rätt plats.*@
     <div id="projects">
         <div class="project-list">
             @foreach (var project in Model)
             {
-                <div class="project-card">
+                <div class="card">
 
-                    <a asp-action="Details" asp-route-id="@project.Id" class="project-card-link">
-                        <div class="card-header">
-                            <div class="project-image">
-                                <img src="@project.Image" alt="icon" />
-                            </div>
-
-                            <div class="project-name">
-                                <h4>@project.ProjectName</h4>
-                                <p class="client-name">@project.Client?.ClientName</p>
-                                <p class="project-description">@project.Description</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <div id="project-actions-container">
-                        <button class="btn-action" onclick="toggleDropdown('@project.Id')">⋯</button>
-
-                        <div id="dropdown-@project.Id" class="dropdown">
+                    <div class="dropdown-wrapper">
+                        <button class="btn-action" data-type="dropdown" data-target="#dropdown-@project.Id">⋯</button>
+                        <div id="dropdown-@project.Id" class="dropdown hidden">
                             <div class="dropdown-actions">
                                 <a asp-action="Edit" asp-route-id="@project.Id" class="dropdown-action">✏️ Edit</a>
                                 <form asp-action="Delete" asp-route-id="@project.Id" method="post">
@@ -52,13 +28,21 @@
                         </div>
                     </div>
 
-                    <div class="card-body">
-                        <p>@project.StartDate.ToShortDateString()</p>
-                        <p>@project.Status?.StatusName</p>
-                    </div>
+
+                        <div class="project-image">
+                            <img src="/images/Image.png" alt="Alpha Portal" />
+                        </div>
+                        <h4 class="project-title">@project.ProjectName</h4>
+                    
+
+                    <a asp-action="Details" asp-route-id="@project.Id" class="project-card-link">
+                        <div class="project-content">
+                            <p class="client-name">@project.Client?.ClientName</p>
+                            <p class="project-description">@project.Description</p>
+                        </div>
+                    </a>
                 </div>
             }
         </div>
     </div>
 </div>
-

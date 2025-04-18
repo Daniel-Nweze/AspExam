@@ -1,47 +1,42 @@
-﻿@*PROJECTFORMPARTIAL*@
-@model Business.Dtos.AddProjectViewModel
+﻿@model AddProjectViewModel
 
+<form method="post">
+    <div class="form-group">
+        <label asp-for="FormData.ProjectName"></label>
+        <input asp-for="FormData.ProjectName" />
+        <span asp-validation-for="FormData.ProjectName"></span>
+    </div>
 
-<div class="form-group">
-    <label asp-for="FormData.ProjectName"></label>
-    <input asp-for="FormData.ProjectName" />
-    <span asp-validation-for="FormData.ProjectName"></span>
-</div>
+    <div class="form-group">
+        <label asp-for="FormData.ClientId">Client Name</label>
+        <select asp-for="FormData.ClientId" asp-items="Model.Clients">
+            <option value="">--Choose Client--</option>
+        </select>
+        <span asp-validation-for="FormData.ClientId"></span>
+    </div>
 
-<div class="form-group">
-    <label asp-for="FormData.ClientId">Client Name</label>
-    <select asp-for="FormData.ClientId" asp-items="Model.Clients">
-        <option value="">--Choose Client--</option>
-    </select>
-    <span asp-validation-for="FormData.ClientId"></span>
-</div>
+    <div class="form-group">
+        <label asp-for="FormData.Description"></label>
+        <input asp-for="FormData.Description" />
+        <span asp-validation-for="FormData.Description"></span>
+    </div>
 
+    <div class="form-group">
+        <label asp-for="FormData.StartDate"></label>
+        <input asp-for="FormData.StartDate" type="date" />
+        <span asp-validation-for="FormData.StartDate"></span>
+    </div>
 
-<div class=form-group>
-    <label asp-for="FormData.Description"></label>
-    <input asp-for="FormData.Description" />
-    <span asp-validation-for="FormData.Description"></span>
-</div>
+    <div class="form-group">
+        <label asp-for="FormData.EndDate"></label>
+        <input asp-for="FormData.EndDate" type="date" />
+        <span asp-validation-for="FormData.EndDate"></span>
+    </div>
 
-<div class=form-group>
-    <label asp-for="FormData.StartDate"></label>
-    <input asp-for="FormData.StartDate" type="date" />
-    <span asp-validation-for="FormData.StartDate"></span>
-</div>
+    <div class="form-group">
+        <label asp-for="FormData.Budget"></label>
+        <input asp-for="FormData.Budget" />
+        <span asp-validation-for="FormData.Budget"></span>
+    </div>
 
-<div class=form-group>
-    <label asp-for="FormData.EndDate"></label>
-    <input asp-for="FormData.EndDate" type="date" />
-    <span asp-validation-for="FormData.EndDate"></span>
-</div>
-
-<div class=form-group>
-    <label asp-for="FormData.Budget"></label>
-    <input asp-for="FormData.Budget" />
-    <span asp-validation-for="FormData.Budget"></span>
-</div>
-
-
-
-
-
+</form>

@@ -13,4 +13,8 @@ public class UserSignInForm
     [DataType(DataType.Password)]
     [Display(Name = "Password", Prompt = "Enter your password")]
     public string Password { get; set; } = string.Empty;
+
+    [Display(Name = "Remember Me")]
+    public bool RememberMe { get; set; }
+
 }

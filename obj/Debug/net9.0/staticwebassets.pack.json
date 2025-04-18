@@ -1,16 +1,40 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\figma-reset.css",
+      "PackagePath": "staticwebassets\\css\\figma-reset.css"
+    },
+    {
+      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\css\\vscode.css",
+      "PackagePath": "staticwebassets\\css\\vscode.css"
     },
     {
       "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\projects.js",
-      "PackagePath": "staticwebassets\\js\\projects.js"
+      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\Image.png",
+      "PackagePath": "staticwebassets\\images\\Image.png"
+    },
+    {
+      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\icons\\google-icon.svg",
+      "PackagePath": "staticwebassets\\images\\icons\\google-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\logotype\\Logo.svg",
+      "PackagePath": "staticwebassets\\images\\logotype\\Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\projects\\project-template-purple.svg",
+      "PackagePath": "staticwebassets\\images\\projects\\project-template-purple.svg"
+    },
+    {
+      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\images\\users\\user-template-male-green.svg",
+      "PackagePath": "staticwebassets\\images\\users\\user-template-male-green.svg"
+    },
+    {
+      "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\old.js",
+      "PackagePath": "staticwebassets\\js\\old.js"
     },
     {
       "Id": "C:\\Users\\danie\\source\\repos\\ASP_One_Examination\\ASP_One_Examination\\wwwroot\\js\\site.js",

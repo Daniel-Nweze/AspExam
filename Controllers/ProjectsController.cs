@@ -1,8 +1,7 @@
-﻿using Business.Dtos;
+﻿using ASP_One_Examination.Models;
 using Business.Helpers;
 using Business.Interfaces;
 using Business.Models;
-using Business.Services;
 using Data.Entities;
 using Data.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -11,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 
-//PROJECTS CONTROLLER
+
 namespace ASP_One_Examination.Controllers
 {
     [Authorize]
@@ -62,7 +61,7 @@ namespace ASP_One_Examination.Controllers
             {
                 Clients = clients.Data?
                 .Select(c => new SelectListItem { Value = c.Id, Text = c.ClientName })
-                .ToList() ?? [], // Om data är null ändå, skicka tom lista istället för krasch.
+                .ToList() ?? [], // Om data är null ändå, skicka tom lista istället för krasch. Chatgpt genererad
 
                 Statuses = statuses.Data?
                     .Select(s => new SelectListItem { Value = s.Id.ToString(), Text = s.StatusName })
@@ -78,13 +77,7 @@ namespace ASP_One_Examination.Controllers
         {
             if (!ModelState.IsValid)
             {
-                foreach (var entry in ModelState)
-                {
-                    foreach (var error in entry.Value.Errors)
-                    {
-                        Console.WriteLine($"ModelState error: {entry.Key} - {error.ErrorMessage}");
-                    }
-                }
+               
                 var clients = await _baseRepository.GetAllAsync();
                 var statuses = await _statusService.GetAllStatusesAsync();
 
@@ -172,14 +165,7 @@ namespace ASP_One_Examination.Controllers
                 ViewBag.Statuses = statuses.Data?.Select(s => new SelectListItem { Value = s.Id.ToString(), Text = s.StatusName }).ToList();
                 viewModel.Statuses = statuses.Data?
                     .Select(s => new SelectListItem { Value = s.Id.ToString(), Text = s.StatusName })
-                    .ToList() ?? [];
-                foreach (var entry in ModelState)
-                {
-                    foreach (var error in entry.Value.Errors)
-                    {
-                        Console.WriteLine($"ModelState error: {entry.Key} - {error.ErrorMessage}");
-                    }
-                }
+                    .ToList() ?? [];       
 
                 var clients = await _baseRepository.GetAllAsync();
                 viewModel.Clients = clients.Data?

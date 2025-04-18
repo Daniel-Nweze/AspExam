@@ -1,0 +1,114 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/figma-reset.css" asp-append-version="true" />
+</head>
+
+@{
+    var isAuthPage = Context.Request.Path.Value!.Contains("SignIn") || Context.Request.Path.Value.Contains("SignUp");
+}
+
+<body>
+    @if (isAuthPage)
+    {
+        <main class="auth-layout">
+            @RenderBody()
+        </main>
+    }
+    else
+    {
+        <div class="backoffice-wrapper">
+            <aside>
+                <partial name="Partials/Sections/_Sidebar" />
+            </aside>
+
+            <header>
+                <partial name="Partials/Sections/_Header" />
+            </header>
+
+            <main>
+                @RenderBody()
+            </main>
+        </div>
+    }
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+ 
+
+@* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/css/vscode.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="center-wrapper">
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html> *@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

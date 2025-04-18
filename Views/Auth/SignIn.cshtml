@@ -4,30 +4,44 @@
     ViewData["Title"] = "Sign In";
 }
 
-<div id="signin" class="container">
-    <form id="signin-form" asp-action="SignIn" asp-controller="Auth" method="post" novalidate>
-
-        <div class="form-group">
-            <label asp-for="Email"></label>
-            <div field-group>
-                <input asp-for="Email" />
-                <span asp-validation-for="Email"></span>
-            </div>
+<section id="signin">
+    <div class="card">
+        <div class="card-header">
+            <h1>Log in</h1>
         </div>
 
-        <div class="form-group">
-            <label asp-for="Password"></label>
-            <div field-group>
-                <input asp-for="Password" />
-                <span asp-validation-for="Password"></span>
+        <form id="signin-form" asp-action="SignIn" asp-controller="Auth" method="post" novalidate>
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group">
+                <label class="form-label" asp-for="Email"></label>
+                <div class="field-group">
+                    <input class="form-input" asp-for="Email" />
+                </div>
             </div>
-        </div>
 
-        <button type="submit" class="btn btn-login">Log In</button>
+            <div class="form-group">
+                <label class="form-label" asp-for="Password"></label>
+                <div class="field-group">
+                    <input class="form-input" asp-for="Password" />
+                </div>
+            </div>
 
-        <p class="auth-switch">
-            Don't have an account?
-            <a asp-action="SignUp" asp-controller="Auth">Sign Up</a>
-        </p>
-    </form>
-</div>
+            <div class="form-group">
+                <label class="form-label">
+                    <input asp-for="RememberMe" type="checkbox" class="form-checkbox" />
+                    @Html.DisplayNameFor(m => m.RememberMe)
+                </label>
+            </div>
+
+
+            <button type="submit" class="btn btn-submit">Log In</button>
+
+            <div class="card-footer">
+                Don't have an account?
+                <a asp-action="SignUp" asp-controller="Auth">Sign Up</a>
+            </div>
+        </form>
+    </div>
+</section>
+@await Html.PartialAsync("_ValidationScripts")

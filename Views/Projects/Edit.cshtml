@@ -1,22 +1,36 @@
-﻿@model Business.Dtos.AddProjectViewModel
-@{
-    ViewData["Title"] = "Edit Project";
-}
+﻿@model AddProjectViewModel
 
-<h1 class="h2">Edit Project</h1>
 
-<form asp-action="Edit" method="post" asp-route-id="@ViewBag.ProjectId" novalidate>
-    <partial name="_ProjectFormPartial" model="Model" />
+<div id="editModal" class="modal-backdrop hidden">
+    <div class="modal-container">
 
-    <div class="form-group">
-        <label asp-for="FormData.StatusId">Status</label>
-        <select asp-for="FormData.StatusId" asp-items="Model.Statuses">
-            <option value="">--Choose Status--</option>
-        </select>
-        <span asp-validation-for="FormData.StatusId" class="text-danger"></span>
+        <button type="button" class="modal-close-btn" data-type="close" data-target="#editModal">
+            x
+        </button>
 
+        <h2 class="modal-title">Edit Project</h2>
+
+        <div class="modal-icon">
+            <img src="/images/Image.png" alt="Alpha Icon">
+        </div>
+
+        <form asp-action="Edit" method="post" asp-route-id="@ViewBag.ProjectId" novalidate>
+            <input type="hidden" name="id" value="@ViewBag.ProjectId" />
+
+            <partial name="_ProjectFormPartial" model="Model" />
+
+            <div class="form-group">
+                <label asp-for="FormData.StatusId">Status</label>
+                <select asp-for="FormData.StatusId" asp-items="Model.Statuses">
+                    <option value="">--Choose Status--</option>
+                </select>
+                <span asp-validation-for="FormData.StatusId" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-submit">Save</button>
+        </form>
     </div>
+</div>
 
-    <button type="submit" class="btn-group btn-primary">Save</button>
-</form>
 
+@await Html.PartialAsync("_ValidationScripts")

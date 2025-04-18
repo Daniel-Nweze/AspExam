@@ -188,8 +188,12 @@ C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\bin\Debug\ne
 C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\bin\Debug\net9.0\Microsoft.Web.Infrastructure.dll
 C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
-C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\ntqmduzzx6-3mqem5qj18.gz
-C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\ASP_One_Examination.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\j4cjimsxv0-jtt7wwcbcu.gz
-C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\0cua3ebed3-a1trx07juy.gz
-C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\rd6ubeas0t-u1plo272eu.gz
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\ntqmduzzx6-imv38qk6ap.gz
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\0efjf2shif-r91wx8zza4.gz
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\qpd9m4j8l0-mnql2dr8ug.gz
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\dxr1mqssgb-k39rm0ir57.gz
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\tch51oxsr3-36ookcf2ns.gz
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\7daqtrdt1x-1175nh8rdp.gz
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\371jropgnd-xoalc7y1xp.gz
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\0cua3ebed3-qlittkbiuk.gz
+C:\Users\danie\source\repos\ASP_One_Examination\ASP_One_Examination\obj\Debug\net9.0\compressed\u6ifeyox56-sw4xpu4fpy.gz

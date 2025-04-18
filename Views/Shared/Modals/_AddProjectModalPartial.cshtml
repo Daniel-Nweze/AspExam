@@ -1,0 +1,61 @@
+﻿@* @model AddProjectViewModel 
+
+<section id="add-project-modal" class="modal">
+    <div class="card">
+        <div class="card-header">
+            <h3>Add Project</h3>
+            <button class="btn-close" data-type="close" data-target="#add-project-modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="card-body">
+            <form asp-controller="Projects" asp-action="Add" method="post" novalidate>
+                <div class="form-group">
+                    <label asp-for="FormData.ProjectName" class="form-label">Project Name</label>
+                    <input asp-for="FormData.ProjectName" class="form-input" type="text" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="FormData.ClientId" class="form-label">Client Name</label>
+                    <div class="form-select">
+                        <select asp-for="FormData.ClientId" asp-items="Model.Clients" class="form-select-trigger">
+                            <option value="" class="form-select-text">Choose a client</option>
+                        </select>                   
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FormData.Description" class="form-label">Description</label>
+                    <textarea asp-for="FormData.Description" class="form-input"></textarea>
+                </div>
+                <div class="form-horizontal-group">
+                    <div class="form-group">
+                        <label asp-for="FormData.StartDate" class="form-label">Start Date</label>
+                        <input asp-for="FormData.StartDate" class="form-input" type="date" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="FormData.EndDate" class="form-label">End Date</label>
+                        <input asp-for="FormData.EndDate" class="form-input" type="date" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="FormData.Budget" class="form-label">Budget</label>
+                    <div class="form-input-extended">
+                        <i class="fa-duotone fa-solid fa-dollar-sign"></i>
+                        <input asp-for="FormData.Budget" class="form-input" type="text" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="FormData.StatusId" class="form-label">Status</label>
+                    <div class="form-select" data-placeholder="Choose a client">
+                        <select asp-for="FormData.StatusId" asp-items="Model.Statuses" class="form-select-trigger">
+                            <option value="" class="form-select-text">Choose Status</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn">Create</button>
+            </form>
+        </div>
+    </div>
+</section> *@

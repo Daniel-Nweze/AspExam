@@ -1,91 +1,108 @@
-﻿  @model UserSignUpForm
+﻿@model UserSignUpForm
 
-@{
-    ViewData["Title"] = "Sign Up";
-}
 
-<div id="signup" class="container">
-    <form id="signup-form" asp-action="SignUp" asp-controller="Auth" method="post" novalidate>
-        @if (ViewBag.ErrorMessage != null)
-        {
-            <div class="text-danger">@ViewBag.ErrorMessage</div>
-        }
 
-        <div asp-validation-summary="All" class="text-danger"></div>
-
-        <div class="form-group">
-            <label asp-for="FirstName"></label>
-            <div field-group>
-                <input asp-for="FirstName" />
-                <span asp-validation-for="FirstName"></span>
-            </div>
+ <div  class="auth-wrapper">
+    <div class="card">
+        <div class="card-header">
+            <h1>Create Account</h1>
         </div>
 
-        <div class="form-group">
-            <label asp-for="LastName"></label>
-            <div field-group>
-                <input asp-for="LastName" />
-                <span asp-validation-for="LastName"></span>
-            </div>
-        </div>
+        <form id="signup-form" asp-action="SignUp" asp-controller="Auth" method="post" novalidate>
 
-        <div class="form-group">
-            <label asp-for="Email"></label>
-            <div field-group>
-                <input asp-for="Email" />
-                <span asp-validation-for="Email"></span>
-            </div>
-        </div>
 
-        <div class="form-group">
-            <label asp-for="Phone"></label>
-            <div field-group>
-                <input asp-for="Phone" />
-                <span asp-validation-for="Phone"></span>
-            </div>
-        </div>
+            <div asp-validation-summary="All" class="text-danger"></div>
 
-        <div class="form-group">
-            <label asp-for="Password"></label>
-            <div field-group>
-                <input asp-for="Password" />
+            <div class="form-group">
+                <label class="form-label" asp-for="FullName"></label>
+                <input class="form-input" asp-for="FullName" />
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" asp-for="Email"></label>
+                <input class="form-input" asp-for="Email" />
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" asp-for="Password"></label>
+                <input class="form-input" asp-for="Password" />
                 <span asp-validation-for="Password"></span>
             </div>
-        </div>
 
-        <div class="form-group">
-            <label asp-for="ConfirmPassword"></label>
-            <div field-group>
-                <input asp-for="ConfirmPassword" />
+            <div class="form-group">
+                <label class="form-label" asp-for="ConfirmPassword"></label>
+                <input class="form-input" asp-for="ConfirmPassword" />
                 <span asp-validation-for="ConfirmPassword"></span>
             </div>
-        </div>
 
-        <div class="form-group">
-            <label asp-for="TermsAndConditions"></label>
-            <div field-group>
-                <input asp-for="TermsAndConditions" />
+            <div class="form-checkbox-group">
+                <label class="form-checkbox">
+                    <input asp-for="TermsAndConditions" />
+                    I accept Terms & Conditions
+                </label>
                 <span asp-validation-for="TermsAndConditions"></span>
             </div>
+
+            <button type="submit" class="btn btn-submit">Create Account</button>
+
+            <div class="card-footer">
+                Already have an account?
+                <a asp-action="SignIn" asp-controller="Auth">Login</a>
+            </div>
+        </form>
+    </div>
+</div>
+@await Html.PartialAsync("_ValidationScripts") 
+
+
+@* <section id="signup">
+    <div class="card">
+        <div class="card-header">
+            <h1>Create Account</h1>
         </div>
+        <div class="card-body">
+            <form novalidate>
+                <button type="submit" class="btn-external">
+                    <img src="/images/icons/google-icon.svg" />
+                    <span>Sign up with Google</span>
+                </button>
+            </form>
 
-        <button type="submit" class="btn btn-submit">Create Account</button>
+            <div class="divider"><span>or</span></div>
 
-        <p class="auth-switch">
+            <form method="post" asp-controller="Auth" asp-action="SignUp" novalidate>
+                <div class="form-group">
+                    <label asp-for="FullName" class="form-label"></label>
+                    <input asp-for="FullName" class="form-input" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <input class="form-input" asp-for="Email" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <input class="form-input" asp-for="Password" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="ConfirmPassword" class="form-label">Confirm Password</label>
+                    <input asp-for="ConfirmPassword" class="form-input" />
+                </div>
+                <div class="form-checkbox-group">
+                    <label class="form-checkbox">
+                        <input asp-for="TermsAndConditions" id="terms-checkbox" class="form-checkbox-input" />
+                        <span class="form-checkbox-box"></span>
+                    </label>
+                    <label asp-for="TermsAndConditions"  class="form-label">I accept <a href="#">Terms and Conditions</a></label>
+                </div>
+
+                <button type="submit" class="btn">Create Account</button>
+
+            </form>
+        </div>
+        <div class="card-footer">
             Already have an account?
             <a asp-action="SignIn" asp-controller="Auth">Login</a>
-        </p>
-    </form>
-</div> 
-
-                @section Scripts {
-                    <script>
-                        document.getElementById("add-project-form").addEventListener("submit", function(errors){
-                            const name = document.querySelector("[name='FormData.ProjectName']");
-                            if
-                        })
-
-
-
-                    </script>
-                }
+        </div>
+    </div>
+</section> *@
